@@ -27,7 +27,7 @@ nav a:hover{
 .hero-section{
     height: 90vh;
     width: 100%;
-    background:url(./Images/hero-image.png);
+    background:url(./Images/unnamed.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -172,6 +172,9 @@ nav a:hover{
 .loc-txt,.call-txt,.mail-txt{
     margin-left: 10px;
 }
+h4{
+    margin-bottom: 50px;
+}
 #menu2{
     display: flex;
     flex-direction: column;
@@ -225,4 +228,72 @@ nav a:hover{
     justify-content: space-between;
     padding: 5px;
     font-size: 28px;
+}
+/* Tablet screens */
+@media (max-width: 992px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .navbar{
+    justify-content: center;
+}
+    .about-text{
+    width: 90vw;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.about-text h1{
+    font-size: medium;
+}
+.about-text p{
+    font-size: smaller;
+    line-height: 1.5;
+}
+.about-img img{
+    height: 100px;
+    width:100px;
+    margin-top: 50px;
+}
+.text{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.dish-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.sign{
+    margin-bottom: 0;
+}
+.price{
+    margin-left: 0;
+}
+.biryani-bar{
+    margin-bottom: 50px;
+}
+.contact{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.modes{
+    width: 100vw;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.call,.mail,.loc{
+    margin-bottom: 10px
+}
+h4{
+    margin-top: 50px;
+}
 }
