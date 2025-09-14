@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3d251e;
+}
+.buttons{
+    border-radius: 22%;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    color: maroon;
+}
+.hero-section{
+    height: 90vh;
+    width: 100%;
+    background:url(./Images/hero-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#about{
+    background-color: #c2966b;
+}
+.logo img{
+    height: 75px;
+    width: 75px;
+    margin-top: 4px;
+    margin-left: 3px;
+    border-radius: 50%;
+}
+.about-img img{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    margin-top: 150px;
+}
+.about-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-text{
+    background-color: white;
+    border-radius: 20px;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    padding: 20px;
+}
+.about-text h1{
+    margin-bottom: 20px;
+}
+#menu{
+    background-color:#c2966b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dish-img img{
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.sign{
+    margin-bottom: 30px;
+}
+.biryani-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.biryani{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70vw;
+}
+.text{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.text2 h2{
+    margin-bottom: 10px;
+}
+.price{
+    margin-left: 20px;
+}
+.footer{
+    background-color: #3d251e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.contact{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.modes{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.location,.call,.mail{
+    display:flex;
+
+}
+.cimg img{
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+.loc-txt,.call-txt,.mail-txt{
+    margin-left: 10px;
+}
