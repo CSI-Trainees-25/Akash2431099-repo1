@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    scroll-behavior:auto;
+}
 .navbar{
     width: 100%;
     height: 80px;
@@ -12,13 +15,14 @@
     align-items: center;
     background-color: #3d251e;
 }
-.buttons{
-    border-radius: 22%;
-    background-color: white;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 10px;
-    color: maroon;
+.navs a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+}
+nav a:hover{
+    color: #c2966b;
 }
 .hero-section{
     height: 90vh;
@@ -37,10 +41,10 @@
     background-color: #c2966b;
 }
 .logo img{
-    height: 75px;
-    width: 75px;
+    height: 70px;
+    width: 70px;
     margin-top: 4px;
-    margin-left: 3px;
+    margin-left: 5px;
     border-radius: 50%;
 }
 .about-img img{
@@ -69,6 +73,13 @@
 }
 .about-text h1{
     margin-bottom: 20px;
+    color: #3d251e;
+}
+.about-text p{
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    line-height: 1.8;
+    color: #3d251e;
 }
 #menu{
     background-color:#c2966b;
@@ -91,6 +102,10 @@
 }
 .sign{
     margin-bottom: 30px;
+    font-family:"Satisfy", cursive;
+    font-size: x-large;
+    font-weight: bold;
+    color: #3d251e;
 }
 .biryani-bar{
     display: flex;
@@ -98,6 +113,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    color: #3d251e;
 }
 .biryani{
     margin-top: 20px;
@@ -155,4 +171,58 @@
 }
 .loc-txt,.call-txt,.mail-txt{
     margin-left: 10px;
+}
+#menu2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2966b;
+    color: #3d251e;
+    
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-bottom: 100px;
+}
+.menu2 h1{
+    font-family:"Satisfy", cursive;
+    font-size:  68px;;
+    font-weight: bold;
+    color: #3d251e;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-img2 img{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.menu2 h2{
+    font-family: "Roboto Mono", monospace;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.long{
+    background-color: white;
+    width: 80vw;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.long h3{
+    font-size: 38px;
+    font-weight: bold;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 28px;
 }
