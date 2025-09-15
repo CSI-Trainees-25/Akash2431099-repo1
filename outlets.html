@@ -5,37 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Outlets</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="./Images/Logo.png" alt="logo">
-        </div>
-        <div class="navs">
-            <a href="./index.html" class="home">Home</a>
-            <a href="./menu.html" class="menu">Menu</a>
-        </div>     
-    </nav>
-    <section id="outlets">
-        <div class="outlet-box">
-            <div class="outlet-head">
-              <h1>We are Serving at..</h1>
+    <section id="entire">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./Images/Logo.png" alt="logo">
             </div>
-            <div class="cities">
-                <div class="newdelhi">
-                    <img src="./Images/newdelhi.png">
-                    <h2>New Delhi</h2>
+            <div class="navs">
+               <a href="./index.html" class="home">Home</a>
+               <a href="./menu.html" class="menu">Menu</a>
+            </div>     
+        </nav>
+        <section id="outlets">
+            <div class="outlet-box">
+                <div class="outlet-head">
+                   <h1 class="fade-in">We are Serving at ...</h1>
                 </div>
-                <div class="mumbai">
-                    <img src="./Images/mumbai.png">
-                    <h2>Mumbai</h2>
-                </div>
-                <div class="bengaluru">
-                    <img src="./Images/bengaluru.png">
-                    <h2>Bengaluru</h2>
+                <div class="cities">
+                    <div class="newdelhi city">
+                        <img src="./Images/newdelhi.png">
+                        <a href="#">New Delhi</a>
+                    </div>
+                    <div class="mumbai city">
+                       <img src="./Images/mumbai.png">
+                       <a href="#">Mumbai</a>
+                    </div>
+                    <div class="bengaluru city">
+                       <img src="./Images/bengaluru.png">
+                       <a href="#">Bengaluru</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <footer class="footer" id="contact">
+            <div class="contact-box">
+                <div class="outlet-contact">
+                    <h1>CONTACT US</h1>
+                </div>
+                <div class="outlet-modes">
+                    <div class="location">
+                        <div class="cimg">
+                            <img src="./Images/location.png">
+                        </div>
+                        <div class="loc-txt">
+                            <h3>1234 Biryani St. Flavor Town</h3>
+                        </div>
+                    </div>
+                    <div class="call">
+                        <div class="cimg">
+                            <img src="./Images/call.png">
+                        </div>
+                        <div class="call-txt">
+                            <h3>+91 1234567890</h3>
+                        </div>
+                    </div>
+                    <div class="mail">
+                        <div class="cimg">
+                            <img src="./Images/mail.png">
+                        </div>
+                        <div class="mail-txt">
+                            <h3>info@biryanimahal.com</h3>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="h4">© Biryani Mahal</h4>
+            </div>
+        </footer>
     </section>
     
 </body>
